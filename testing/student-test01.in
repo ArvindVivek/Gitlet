@@ -1,0 +1,13 @@
+# Personal test for checkpoint
+> init
+<<<
++ test01.txt test01.txt
+> add test01.txt
+<<<
+> commit "added test01"
+<<<
++ test01.txt nottest01.txt
+# Must change
+> checkout -- test01.txt
+<<<
+= test01.txt test01.txt

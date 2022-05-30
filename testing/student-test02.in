@@ -1,0 +1,14 @@
+# Student test02
+> init
+<<<
++ test01.txt test01.txt
+> add test01.txt
+<<<
+> commit "version 1 of test01.txt"
+<<<
++ test01.txt nottest01.txt
+> add test01.txt
+<<<
+> commit "version 2 of test01.txt"
+<<<
+= test01.txt nottest01.txt
